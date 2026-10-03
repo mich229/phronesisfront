@@ -1,9 +1,21 @@
-﻿export default function Club() {
+﻿import ClubCta from "../sections/club/ClubCta";
+import ClubHero from "../sections/club/ClubHero";
+import History from "../sections/club/History";
+import Strategy from "../sections/club/Strategy";
+import Team from "../sections/club/Team";
+import Values from "../sections/club/Values";
+import Vision from "../sections/club/Vision";
+
+export default function Club() {
   return (
-    <main className="pt-[68px]">
-      <div className="mx-auto max-w-7xl px-6 py-24">
-        <h1 className="font-display text-4xl font-bold">Club</h1>
-      </div>
+    <main>
+      <ClubHero />
+      <History />
+      <Vision />
+      <Strategy />
+      <Values />
+      <Team />
+      <ClubCta />
     </main>
   );
 }
