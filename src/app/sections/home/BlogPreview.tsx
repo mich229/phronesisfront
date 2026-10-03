@@ -15,8 +15,8 @@ export default function BlogPreview() {
         </div>
 
         <div className="grid gap-8 lg:grid-cols-3">
-          {allPosts.slice(0, 3).map(({ id, cat, title, date, img }) => (
-            <Link key={id} to="/blog" className="group block">
+          {allPosts.slice(0, 3).map(({ id, slug, cat, title, date, img }) => (
+            <Link key={id} to={`/blog/${slug}`} className="group block">
               <div className="mb-5 aspect-video overflow-hidden rounded-xl bg-muted">
                 <img
                   src={img}

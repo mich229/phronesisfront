@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Club from "./pages/Club";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import Faq from "./pages/Faq";
 import Adhesion from "./pages/Adhesion";
 import NotFound from "./pages/NotFound";
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="le-club" element={<Club />} />
         <Route path="services" element={<Services />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="blog/:slug" element={<BlogPost />} />
         <Route path="faq" element={<Faq />} />
         <Route path="adhesion" element={<Adhesion />} />
         <Route path="*" element={<NotFound />} />

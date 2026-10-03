@@ -5,6 +5,7 @@ export const SITE = {
   address: ["12 Rue de la Bourse", "75002 Paris, France"],
   memberAreaUrl: "#",
   formEndpoint: "https://formspree.io/f/XXXXXXXX",
+  newsletterEndpoint: "https://formspree.io/f/YYYYYYYY",
   socials: { linkedin: "#", twitter: "#" },
 };
 
