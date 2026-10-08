@@ -1,9 +1,26 @@
-﻿export default function Adhesion() {
+﻿import { useState } from "react";
+import AdhesionHero from "../sections/adhesion/AdhesionHero";
+import ApplicationForm from "../sections/adhesion/ApplicationForm";
+import ApplySteps from "../sections/adhesion/ApplySteps";
+import FreeModel from "../sections/adhesion/FreeModel";
+import MemberAccess from "../sections/adhesion/MemberAccess";
+
+export default function Adhesion() {
+  const [prefillEmail, setPrefillEmail] = useState("");
+
+  const onQuickApply = (email: string) => {
+    setPrefillEmail(email);
+    document.getElementById("formulaire")?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById("prenom")?.focus({ preventScroll: true });
+  };
+
   return (
-    <main className="pt-[68px]">
-      <div className="mx-auto max-w-7xl px-6 py-24">
-        <h1 className="font-display text-4xl font-bold">Adhesion</h1>
-      </div>
+    <main>
+      <AdhesionHero onQuickApply={onQuickApply} />
+      <ApplySteps />
+      <FreeModel />
+      <ApplicationForm prefillEmail={prefillEmail} />
+      <MemberAccess />
     </main>
   );
 }
