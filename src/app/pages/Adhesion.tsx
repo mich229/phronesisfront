@@ -4,6 +4,8 @@ import ApplicationForm from "../sections/adhesion/ApplicationForm";
 import ApplySteps from "../sections/adhesion/ApplySteps";
 import FreeModel from "../sections/adhesion/FreeModel";
 import MemberAccess from "../sections/adhesion/MemberAccess";
+import { PAGES } from "../data/seo";
+import Seo from "../components/Seo";
 
 export default function Adhesion() {
   const [prefillEmail, setPrefillEmail] = useState("");
@@ -16,6 +18,7 @@ export default function Adhesion() {
 
   return (
     <main>
+      <Seo {...PAGES.adhesion} />
       <AdhesionHero onQuickApply={onQuickApply} />
       <ApplySteps />
       <FreeModel />

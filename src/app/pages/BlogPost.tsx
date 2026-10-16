@@ -6,6 +6,8 @@ import PostCard from "../components/PostCard";
 import { allPosts, getPost } from "../data/posts";
 import { KEY_FIGURES, SITE } from "../data/site";
 import NotFound from "./NotFound";
+import { blogPostingLd } from "../data/seo";
+import Seo from "../components/Seo";
 
 export default function BlogPost() {
   const { slug = "" } = useParams();
@@ -16,6 +18,14 @@ export default function BlogPost() {
 
   return (
     <main>
+      <Seo
+        title={`${post.title} | Blog ${SITE.name}`}
+        description={post.excerpt}
+        path={`/blog/${post.slug}`}
+        image={post.img}
+        type="article"
+        jsonLd={blogPostingLd(post)}
+      />
       <header className="bg-navy pt-[68px]">
         <div className="mx-auto max-w-3xl px-6 py-16">
           <Breadcrumb current="Article" parent={{ label: "Blog", to: "/blog" }} />
@@ -76,4 +86,5 @@ export default function BlogPost() {
       />
     </main>
   );
+  if (!post) return <NotFound />
 }

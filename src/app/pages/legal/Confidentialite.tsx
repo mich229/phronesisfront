@@ -4,6 +4,7 @@ import LegalLayout from "../../components/LegalLayout";
 import LegalSection from "../../components/LegalSection";
 import { LEGAL } from "../../data/legal";
 import { SITE } from "../../data/site";
+import { PAGES } from "../../data/seo";
 
 const processing = [
   {
@@ -42,6 +43,7 @@ const td = "border-b border-border px-3 py-3 align-top";
 export default function Confidentialite() {
   return (
     <LegalLayout
+      seo={PAGES.privacy}
       crumb="Confidentialité"
       title="Politique de confidentialité"
       intro={

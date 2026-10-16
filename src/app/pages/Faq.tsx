@@ -4,6 +4,8 @@ import PageHeader from "../components/PageHeader";
 import { faqCategories } from "../data/faq";
 import { SITE } from "../data/site";
 import FaqContact from "../sections/faq/FaqContact";
+import { PAGES } from "../data/seo";
+import Seo from "../components/Seo";
 
 export default function Faq() {
   const [params, setParams] = useSearchParams();
@@ -17,6 +19,7 @@ export default function Faq() {
 
   return (
     <main>
+      <Seo {...PAGES.faq} />
       <PageHeader
         crumb="FAQ"
         eyebrow="FAQ"

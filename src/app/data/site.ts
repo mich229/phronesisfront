@@ -8,6 +8,9 @@ export const SITE = {
   formEndpoint: "https://formspree.io/f/XXXXXXXX",
   newsletterEndpoint: "https://formspree.io/f/YYYYYYYY",
   socials: { linkedin: "#", twitter: "#" },
+  url: "https://www.horizons-capital.fr", // ⚠ à remplacer par le vrai domaine
+  locale: "fr_FR",
+  ogImage: "/og-image.png",
 };
 
 export const KEY_FIGURES = {

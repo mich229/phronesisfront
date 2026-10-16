@@ -21,3 +21,9 @@ export const allPosts: Post[] = [
 ];
 
 export const getPost = (slug: string) => allPosts.find((p) => p.slug === slug);
+
+const PUBLISHED: Record<number, string> = {
+  1: "2025-07-10", 2: "2025-07-03", 3: "2025-06-27",
+  4: "2025-06-20", 5: "2025-06-15", 6: "2025-06-08",
+};
+export const publishedISO = (p: Post) => PUBLISHED[p.id];

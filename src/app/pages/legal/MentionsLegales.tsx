@@ -4,10 +4,12 @@ import LegalLayout from "../../components/LegalLayout";
 import LegalSection, { LegalRow } from "../../components/LegalSection";
 import { LEGAL } from "../../data/legal";
 import { SITE } from "../../data/site";
+import { PAGES } from "../../data/seo";
 
 export default function MentionsLegales() {
   return (
     <LegalLayout
+      seo={PAGES.mentions}
       crumb="Mentions légales"
       title="Mentions légales"
       intro={

@@ -3,10 +3,13 @@ import PageHeader from "../components/PageHeader";
 import FlagshipSection from "../sections/services/FlagshipSection";
 import OtherServices from "../sections/services/OtherServices";
 import PhronesisSection from "../sections/services/PhronesisSection";
+import { PAGES } from "../data/seo";
+import Seo from "../components/Seo";
 
 export default function Services() {
   return (
     <main>
+      <Seo {...PAGES.services} />
       <PageHeader
         crumb="Nos Services"
         eyebrow="Nos Services"

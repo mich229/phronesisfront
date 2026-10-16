@@ -4,10 +4,12 @@ import LegalLayout from "../../components/LegalLayout";
 import LegalSection from "../../components/LegalSection";
 import { LEGAL } from "../../data/legal";
 import { SITE } from "../../data/site";
+import { PAGES } from "../../data/seo";
 
 export default function Cgu() {
   return (
     <LegalLayout
+      seo={PAGES.cgu}
       crumb="CGU"
       title="Conditions générales d'utilisation"
       intro={

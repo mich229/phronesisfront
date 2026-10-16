@@ -2,6 +2,9 @@ import type { ReactNode } from "react";
 import { Link, useLocation } from "react-router";
 import Breadcrumb from "./Breadcrumb";
 import { LEGAL } from "../data/legal";
+import Seo from "./Seo";
+import type { PageSeo } from "../data/seo";
+
 
 const DOCS = [
   { label: "Mentions légales", to: "/mentions-legales" },
@@ -9,13 +12,14 @@ const DOCS = [
   { label: "Conditions générales d'utilisation", to: "/cgu" },
 ];
 
-type Props = { title: string; crumb: string; intro?: ReactNode; children: ReactNode };
+type Props = { seo: PageSeo; title: string; crumb: string; intro?: ReactNode; children: ReactNode };
 
-export default function LegalLayout({ title, crumb, intro, children }: Props) {
+export default function LegalLayout({ seo, title, crumb, intro, children }: Props) {
   const { pathname } = useLocation();
 
   return (
     <main>
+      <Seo {...seo} />
       <header className="bg-navy pt-[68px]">
         <div className="mx-auto max-w-3xl px-6 py-16">
           <Breadcrumb current={crumb} />

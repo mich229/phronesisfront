@@ -10,10 +10,13 @@ import Performance from "../sections/home/Performance";
 import ServicesPreview from "../sections/home/ServicesPreview";
 import StatsBar from "../sections/home/StatsBar";
 import Testimonials from "../sections/home/Testimonials";
+import Seo from "../components/Seo";
+import { PAGES, organizationLd } from "../data/seo";
 
 export default function Home() {
   return (
     <main>
+      <Seo {...PAGES.home} jsonLd={organizationLd()} />
       <Hero />
       <StatsBar />
       <ClubIntro />

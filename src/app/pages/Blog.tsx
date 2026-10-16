@@ -6,6 +6,8 @@ import PostCard from "../components/PostCard";
 import { allPosts } from "../data/posts";
 import FeaturedPost from "../sections/blog/FeaturedPost";
 import NewsletterSection from "../sections/blog/NewsletterSection";
+import { PAGES } from "../data/seo";
+import Seo from "../components/Seo";
 
 const normalize = (s: string) =>
   s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -40,6 +42,7 @@ export default function Blog() {
 
   return (
     <main>
+      <Seo {...PAGES.blog} noindex={query.trim() !== ""} />
       <PageHeader
         crumb="Blog"
         eyebrow="Blog"
@@ -100,7 +103,7 @@ export default function Blog() {
           )}
         </div>
       </section>
-
+      
       <NewsletterSection />
     </main>
   );
