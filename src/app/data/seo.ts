@@ -2,6 +2,7 @@ import type { Post } from "./posts";
 import { publishedISO } from "./posts";
 import { KEY_FIGURES, SITE } from "./site";
 import { absoluteUrl } from "../lib/absoluteUrl";
+import { imageUrl } from "../lib/images";
 
 export type PageSeo = { path?: string; title: string; description: string };
 type PageKey =
@@ -81,7 +82,7 @@ export const blogPostingLd = (post: Post) => ({
   "@type": "BlogPosting",
   headline: plain(post.title),
   description: plain(post.excerpt),
-  image: absoluteUrl(post.img),
+  image: absoluteUrl(imageUrl(post.img, 1200)),
   datePublished: publishedISO(post),
   inLanguage: "fr",
   mainEntityOfPage: absoluteUrl(`/blog/${post.slug}`),

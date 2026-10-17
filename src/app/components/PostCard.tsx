@@ -1,16 +1,17 @@
 import { Clock } from "lucide-react";
 import { Link } from "react-router";
 import type { Post } from "../data/posts";
+import Img from "../components/Img";
 
 export default function PostCard({ slug, cat, title, date, readTime, img, excerpt }: Post) {
   return (
     <article className="group">
       <Link to={`/blog/${slug}`} className="block">
         <div className="mb-5 aspect-video overflow-hidden rounded-xl bg-muted">
-          <img
-            src={img}
+          <Img
+            name={img}
+            sizes="(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw"
             alt=""
-            loading="lazy"
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         </div>

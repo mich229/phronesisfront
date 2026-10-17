@@ -3,6 +3,7 @@ import Button from "../../components/Button";
 import SectionHeading from "../../components/SectionHeading";
 import { clubChecklist } from "../../data/home";
 import { KEY_FIGURES, SITE } from "../../data/site";
+import Img from "../../components/Img";
 
 export default function ClubIntro() {
   return (
@@ -40,10 +41,10 @@ export default function ClubIntro() {
 
         <div className="relative">
           <div className="absolute -inset-4 rounded-2xl bg-gold/[0.03]" />
-          <img
-            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=700&h=500&fit=crop&auto=format"
+          <Img
+            name="club-intro"
+            sizes="(min-width: 1024px) 576px, 100vw"
             alt="Réunion du club"
-            loading="lazy"
             className="relative w-full rounded-xl object-cover shadow-2xl"
           />
           <div className="absolute -bottom-5 -left-5 rounded-xl bg-gold px-6 py-4 text-navy shadow-xl">

@@ -8,6 +8,8 @@ import { KEY_FIGURES, SITE } from "../data/site";
 import NotFound from "./NotFound";
 import { blogPostingLd } from "../data/seo";
 import Seo from "../components/Seo";
+import Img from "../components/Img";
+import { imageUrl } from "../lib/images";
 
 export default function BlogPost() {
   const { slug = "" } = useParams();
@@ -22,7 +24,7 @@ export default function BlogPost() {
         title={`${post.title} | Blog ${SITE.name}`}
         description={post.excerpt}
         path={`/blog/${post.slug}`}
-        image={post.img}
+        image={imageUrl(post.img, 1200)}
         type="article"
         jsonLd={blogPostingLd(post)}
       />
@@ -42,7 +44,13 @@ export default function BlogPost() {
 
       <article className="bg-background py-16">
         <div className="mx-auto max-w-3xl px-6">
-          <img src={post.img} alt="" className="mb-10 aspect-video w-full rounded-xl object-cover shadow-xl" />
+          <Img
+            name={post.img}
+            sizes="(min-width: 768px) 720px, 100vw"
+            priority
+            alt=""
+            className="mb-10 aspect-video w-full rounded-xl object-cover shadow-xl"
+          />
 
           <p className="mb-8 text-xl leading-relaxed text-foreground">{post.excerpt}</p>
 

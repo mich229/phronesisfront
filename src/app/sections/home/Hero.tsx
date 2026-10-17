@@ -2,6 +2,7 @@ import { ArrowRight, ChevronDown, ExternalLink } from "lucide-react";
 import Button from "../../components/Button";
 import { heroHighlights } from "../../data/home";
 import { KEY_FIGURES, SITE } from "../../data/site";
+import Img from "../../components/Img";
 
 const card = "rounded-xl border border-white/10 bg-white/[0.04]";
 const label = "text-xs uppercase tracking-widest text-white/40";
@@ -10,11 +11,7 @@ export default function Hero() {
   return (
     <section id="hero" className="relative flex min-h-screen items-center overflow-hidden bg-navy">
       <div className="absolute inset-0" aria-hidden="true">
-        <img
-          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600&h=900&fit=crop&auto=format"
-          alt=""
-          className="h-full w-full object-cover opacity-15"
-        />
+        <Img name="hero" sizes="100vw" priority className="h-full w-full object-cover opacity-15" />
         <div className="absolute inset-0 bg-linear-to-br from-navy via-navy/90 to-[#162A45]" />
         <div
           className="absolute inset-0"

@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import SectionHeading from "../../components/SectionHeading";
 import { allPosts } from "../../data/posts";
+import Img from "../../components/Img";
 
 export default function BlogPreview() {
   return (
@@ -18,10 +19,10 @@ export default function BlogPreview() {
           {allPosts.slice(0, 3).map(({ id, slug, cat, title, date, img }) => (
             <Link key={id} to={`/blog/${slug}`} className="group block">
               <div className="mb-5 aspect-video overflow-hidden rounded-xl bg-muted">
-                <img
-                  src={img}
+                <Img
+                  name={img}
+                  sizes="(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw"
                   alt=""
-                  loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

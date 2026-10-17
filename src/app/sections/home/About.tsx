@@ -1,15 +1,16 @@
 import SectionHeading from "../../components/SectionHeading";
 import { aboutStats } from "../../data/home";
 import { KEY_FIGURES, SITE } from "../../data/site";
+import Img from "../../components/Img";
 
 export default function About() {
   return (
     <section id="apropos" className="bg-background py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-20 px-6 lg:grid-cols-2">
-        <img
-          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=700&h=500&fit=crop&auto=format"
+        <Img
+          name="about"
+          sizes="(min-width: 1024px) 576px, 100vw"
           alt={`L'équipe ${SITE.name}`}
-          loading="lazy"
           className="w-full rounded-xl object-cover shadow-2xl"
         />
         <div>

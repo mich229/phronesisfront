@@ -2,6 +2,7 @@ import { PieChart } from "lucide-react";
 import FeatureCard from "../../components/FeatureCard";
 import { flagshipFeatures, flagshipStats } from "../../data/services";
 import { KEY_FIGURES } from "../../data/site";
+import Img from "../../components/Img";
 
 export default function FlagshipSection() {
   return (
@@ -10,10 +11,10 @@ export default function FlagshipSection() {
         <div className="mb-16 grid items-center gap-16 lg:grid-cols-2">
           <div className="relative order-2 lg:order-1">
             <div className="absolute -inset-4 rounded-2xl bg-gold/[0.03]" />
-            <img
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700&h=460&fit=crop&auto=format"
+            <Img
+              name="flagship"
+              sizes="(min-width: 1024px) 576px, 100vw"
               alt="Portefeuille d'investissement"
-              loading="lazy"
               className="relative w-full rounded-xl object-cover shadow-2xl"
             />
             <div className="absolute -bottom-5 -right-5 hidden rounded-xl bg-gold px-6 py-4 text-navy shadow-xl lg:block">

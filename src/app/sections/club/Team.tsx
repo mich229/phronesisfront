@@ -1,6 +1,7 @@
 import SectionHeading from "../../components/SectionHeading";
 import { team } from "../../data/club";
 import { SITE } from "../../data/site";
+import Img from "../../components/Img";
 
 export default function Team() {
   return (
@@ -19,10 +20,10 @@ export default function Team() {
               className="group overflow-hidden rounded-2xl border border-border bg-card transition-all duration-300 hover:shadow-xl"
             >
               <div className="aspect-[4/3] overflow-hidden bg-muted">
-                <img
-                  src={img}
+                <Img
+                  name={img}
+                  sizes="(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw"
                   alt={`Portrait de ${name}`}
-                  loading="lazy"
                   className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                 />
               </div>

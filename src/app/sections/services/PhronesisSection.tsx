@@ -1,6 +1,7 @@
 import { Database } from "lucide-react";
 import FeatureCard from "../../components/FeatureCard";
 import { phronesisFeatures, phronesisTags } from "../../data/services";
+import Img from "../../components/Img";
 
 export default function PhronesisSection() {
   return (
@@ -40,10 +41,10 @@ export default function PhronesisSection() {
           </div>
 
           <div className="relative">
-            <img
-              src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=700&h=460&fit=crop&auto=format"
+            <Img
+              name="phronesis"
+              sizes="(min-width: 1024px) 576px, 100vw"
               alt="Analyse de données financières"
-              loading="lazy"
               className="w-full rounded-xl object-cover shadow-2xl"
             />
             <div className="absolute inset-0 rounded-xl bg-linear-to-t from-navy-deep/60 to-transparent to-50%" />
