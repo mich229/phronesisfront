@@ -14,7 +14,7 @@ export default function ClubCta() {
           intelligent, collectif et accessible à tous.
         </p>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          <Button to="/adhesion" variant="navy" size="lg">
+          <Button to="/adhesion" variant="ghost-dark" size="lg">
             Candidater maintenant <ArrowRight size={16} />
           </Button>
           <Button href={SITE.memberAreaUrl} variant="ghost-dark" size="lg">

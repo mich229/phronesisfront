@@ -30,7 +30,7 @@ export default function ClubIntro() {
             ))}
           </ul>
           <div className="mt-10 flex flex-wrap gap-4">
-            <Button to="/adhesion" variant="navy">
+            <Button to="/adhesion" variant="ghost-dark">
               Nous rejoindre <ArrowRight size={15} />
             </Button>
             <Button to="/le-club" variant="ghost-dark">

@@ -30,20 +30,18 @@ export default function FlagshipSection() {
               </div>
               <div>
                 <p className="text-xs font-semibold uppercase tracking-widest text-gold">
-                  Portefeuille collectif phare
+                  Portefeuille à fort variation
                 </p>
                 <h2 className="font-display text-3xl font-bold text-foreground">FlagShip</h2>
               </div>
             </div>
             <p className="mb-6 text-lg leading-relaxed text-muted-foreground">
-              Le véhicule d'investissement principal d'Horizons Capital. FlagShip est le portefeuille
-              collectif phare du club — diversifié, transparent, gouverné démocratiquement par ses
-              membres.
+              Basé sur une gestion active, c'est le portefeuille à fort rendement. FlagShip est le portefeuille
+              qui recherche une performance alpha et stable.  — diversifié, transparent, gouverné par une approche algorithmique.
             </p>
             <p className="mb-8 leading-relaxed text-muted-foreground">
-              Chaque membre contribue selon ses capacités et participe aux décisions d'allocation.
-              Les analyses de Phronesis Capital alimentent les décisions du FlagShip, créant une
-              chaîne de valeur intégrée de la recherche à l'exécution.
+              La stratégie d'allocation et de trading sur le portefeuille Flagship sont gérées de bout en bout par des algorithmes.
+              Ce portefeuille est structurée pour créer de la valeur dynamique et régulière.
             </p>
             <dl className="grid grid-cols-3 gap-4">
               {flagshipStats.map(({ label, value }) => (

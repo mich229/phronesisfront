@@ -10,7 +10,7 @@ export default function History() {
           align="left"
           className="mb-16"
           eyebrow="Notre histoire"
-          title={`De 12 fondateurs à ${KEY_FIGURES.members}\u00A0membres engagés.`}
+          title={`De 05 fondateurs à ${KEY_FIGURES.members}\u00A0membres engagés.`}
           subtitle="Chaque grande aventure commence par une conviction. La nôtre : l'investissement collectif et éduqué peut transformer durablement le rapport à l'argent."
         />
 

@@ -11,11 +11,11 @@ export default function Vision() {
             align="left"
             large
             eyebrow="Vision & Ambitions"
-            title="Vers un fonds d'investissement de référence."
+            title="Vers une SICAV de référence."
           />
           <p className="mt-6 leading-relaxed text-muted-foreground">
             Notre ambition transcende le cadre d'un simple club. À horizon 3 à 5 ans, {SITE.name}{" "}
-            évoluera vers un fonds d'investissement agréé, offrant à nos membres l'accès à des
+            évoluera vers une SICAV agréé, offrant à nos membres l'accès à des
             instruments et stratégies habituellement réservés aux institutionnels.
           </p>
           <p className="mt-4 leading-relaxed text-muted-foreground">

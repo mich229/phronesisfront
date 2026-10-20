@@ -242,7 +242,7 @@ export default function ApplicationForm({ prefillEmail = "" }: { prefillEmail?: 
           <button
             type="submit"
             disabled={busy}
-            className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-navy py-4 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
+            className="mt-6 flex w-full items-center justify-center gap-2 rounded-xl bg-ghost-dark py-4 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-60"
           >
             {busy ? "Envoi en cours…" : <>Déposer ma candidature <ArrowRight size={16} /></>}
           </button>

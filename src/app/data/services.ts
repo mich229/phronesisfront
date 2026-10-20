@@ -18,8 +18,8 @@ export const phronesisFeatures: Feature[] = [
 ];
 
 export const flagshipStats = [
-  { label: "Positions actives", value: "24" },
-  { label: "Marchés couverts", value: "8" },
+  { label: "Positions actives", value: "15" },
+  { label: "Marchés couverts", value: "4" },
   { label: "Diversification", value: "100\u00A0%" },
 ];
 
@@ -28,12 +28,12 @@ export const flagshipFeatures: Feature[] = [
   { icon: TrendingUp, title: "Stratégie croissance long terme", desc: "Approche axée sur la création de valeur durable, avec un horizon d'investissement de 3 à 10 ans sur chaque position." },
   { icon: Users, title: "Gouvernance démocratique", desc: "Chaque membre vote sur les décisions d'allocation. Transparence totale sur les positions, raisonnements et performances." },
   { icon: Zap, title: "Opportunités exclusives", desc: "Accès à des introductions en bourse, placements privés et co-investissements inaccessibles aux investisseurs individuels." },
-  { icon: FileText, title: "Reporting mensuel", desc: "Rapport détaillé chaque mois : performance par position, attribution des gains, analyse des écarts et perspectives." },
+  { icon: FileText, title: "Reporting mensuel", desc: "Rapport détaillé chaque mois : performance par position, attribution des gains, analyse des écarts et perspectives.Accès à la plateforme de gestion Atlas" },
   { icon: Lock, title: "Gestion du risque active", desc: "Règles strictes de diversification, stop-loss définis et couvertures sectorielles pour protéger le capital collectif." },
 ];
 
 export const allServices: Feature[] = [
-  { icon: BarChart2, title: "Analyse de marché", desc: "Analyses hebdomadaires rédigées par nos experts pour orienter vos décisions avec clarté et précision." },
+  { icon: BarChart2, title: "Analyse de marché", desc: "Analyses périodiques rédigées par notre outil pour orienter nos prises de décision avec clarté." },
   { icon: Users, title: "Investissement collectif", desc: "Mutualisez vos ressources pour accéder ensemble à des opportunités réservées aux grands investisseurs." },
   { icon: BookOpen, title: "Formation continue", desc: "Webinaires, ateliers et bibliothèque de ressources pour renforcer votre culture financière." },
   { icon: Shield, title: "Gestion du risque", desc: "Outils de diversification et de suivi pour protéger et faire fructifier votre patrimoine en toute sérénité." },

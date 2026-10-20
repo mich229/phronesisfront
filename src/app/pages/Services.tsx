@@ -13,8 +13,8 @@ export default function Services() {
       <PageHeader
         crumb="Nos Services"
         eyebrow="Nos Services"
-        title="Deux produits phares. Une vision commune."
-        subtitle="Phronesis Capital pour l'intelligence analytique. FlagShip pour l'investissement collectif. Deux piliers qui structurent l'offre d'Horizons Capital."
+        title="Deux portefeuilles phares. Une vision commune."
+        subtitle="Hikma pour l'intelligence analytique. FlagShip pour l'investissement collectif. Deux piliers qui structurent l'offre de Phronesis Capital."
       />
       <PhronesisSection />
       <FlagshipSection />

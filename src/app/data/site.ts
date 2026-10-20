@@ -1,23 +1,23 @@
 export const SITE = {
-  name: "Horizons Capital",
-  email: "contact@horizons-capital.fr",
-  supportEmail: "support@horizons-capital.fr",
-  phone: "+33 1 23 45 67 89",
-  address: ["12 Rue de la Bourse", "75002 Paris, France"],
+  name: "Phronesis Capital",
+  email: "contact@phronesiscapital-partners.com",
+  supportEmail: "support@phronesiscapital-partners.com",
+  phone: "+229 01 66 03 98 99",
+  address: ["Cotonou, Bénin"],
   memberAreaUrl: "#",
   formEndpoint: "https://formspree.io/f/XXXXXXXX",
   newsletterEndpoint: "https://formspree.io/f/YYYYYYYY",
   socials: { linkedin: "#", twitter: "#" },
-  url: "https://www.horizons-capital.fr", // ⚠ à remplacer par le vrai domaine
+  url: "https://www.phronesis-capital.fr", // ⚠ à remplacer par le vrai domaine
   locale: "fr_FR",
   ogImage: "/og-image.png",
 };
 
 export const KEY_FIGURES = {
-  members: "247",
-  aum: "2,4\u00A0M€",
+  members: "25",
+  aum: "2.8\u00A0M XOF",
   performance: "+63,2\u00A0%",
-  performanceShort: "+63\u00A0%",
+  performanceShort: "+25\u00A0%",
   benchmark: "+14,7\u00A0%",
-  founded: "2021",
+  founded: "2022",
 };

@@ -14,19 +14,19 @@ export default function PhronesisSection() {
                 <Database size={20} className="text-gold" />
               </div>
               <div>
-                <p className="text-xs font-semibold uppercase tracking-widest text-gold">Division Recherche</p>
-                <h2 className="font-display text-3xl font-bold text-white">Phronesis Capital</h2>
+                <p className="text-xs font-semibold uppercase tracking-widest text-gold">Quiétude</p>
+                <h2 className="font-display text-3xl font-bold text-white">Portefeuille Hikma</h2>
               </div>
             </div>
             <p className="mb-6 text-lg leading-relaxed text-white/65">
-              Du grec <em className="text-gold">phronésis</em> — la sagesse pratique. Notre division
+              De l'arabe <em className="text-gold">Hikma</em> — la sagesse pratique. Notre division
               d'analyse et d'intelligence financière fournit l'infrastructure analytique qui guide
               chaque décision d'investissement du club.
             </p>
             <p className="mb-8 leading-relaxed text-white/50">
-              Phronesis Capital produit des analyses fondamentales approfondies, des rapports
+              Hikma produit des analyses fondamentales approfondies, des rapports
               sectoriels, une veille macroéconomique continue et assure la due diligence avant chaque
-              investissement collectif. C'est le cerveau analytique d'Horizons Capital.
+              investissement collectif. C'est le cerveau analytique de phronesis Capital.
             </p>
             <ul className="flex flex-wrap gap-3">
               {phronesisTags.map((tag) => (
@@ -51,7 +51,7 @@ export default function PhronesisSection() {
             <div className="absolute inset-x-5 bottom-5">
               <div className="rounded-lg border border-white/10 bg-navy-deep/80 p-4 backdrop-blur-sm">
                 <p className="mb-1 text-xs uppercase tracking-widest text-gold">Dernière publication</p>
-                <p className="text-sm font-medium text-white">Rapport Q2 2025 — Marchés émergents d'Asie</p>
+                <p className="text-sm font-medium text-white">Rapport Q2 2026 — Marchés émergents d'Afrique</p>
               </div>
             </div>
           </div>

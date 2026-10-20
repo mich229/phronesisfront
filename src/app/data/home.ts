@@ -33,17 +33,17 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    id: "phronesis",
+    id: "Hikma",
     icon: Database,
-    name: "Phronesis Capital",
-    tagline: "Intelligence & Analyse",
+    name: "Hikma",
+    tagline: "Quiétude",
     desc: "Notre division recherche. Analyses fondamentales, rapports sectoriels, veille macroéconomique et due diligence pour des décisions éclairées.",
   },
   {
     id: "flagship",
     icon: PieChart,
     name: "FlagShip",
-    tagline: "Portefeuille collectif phare",
+    tagline: "Portefeuille à fort variation",
     desc: "Le véhicule d'investissement principal du club. Portefeuille diversifié mondialement, gouvernance démocratique et reporting mensuel transparent.",
   },
 ];
@@ -66,8 +66,8 @@ export const perfData = [
 ];
 
 export const testimonials = [
-  { name: "Marianne Kouassi", role: "Membre depuis 2022", initials: "MK", text: "Rejoindre ce club a transformé ma vision de l'investissement. Mon portefeuille a progressé de 34 % en deux ans grâce à l'intelligence collective du groupe." },
-  { name: "Théo Beaumont", role: "Membre depuis 2021", initials: "TB", text: "La qualité des analyses et la rigueur des décisions collectives m'ont permis d'accéder à des opportunités que je n'aurais jamais pu identifier seul." },
+  { name: "Marianne Kouassi", role: "Membre depuis 2024", initials: "MK", text: "Rejoindre ce club a transformé ma vision de l'investissement. Mon portefeuille a progressé de 34 % en deux ans grâce à l'intelligence collective du groupe." },
+  { name: "Théo Beaumont", role: "Membre depuis 2022", initials: "TB", text: "La qualité des analyses et la rigueur des décisions collectives m'ont permis d'accéder à des opportunités que je n'aurais jamais pu identifier seul." },
   { name: "Sandra Diallo", role: "Membre depuis 2023", initials: "SD", text: "Débutante en finance, le club m'a donné les outils, le savoir et la confiance pour investir sereinement. La pédagogie est au cœur de tout." },
 ];
 
@@ -81,7 +81,7 @@ export const homeFaqs = [
 
 export const aboutStats = [
   { label: "Fondé en", value: KEY_FIGURES.founded },
-  { label: "Pays représentés", value: "12" },
-  { label: "Réunions tenues", value: "48+" },
+  { label: "Pays représentés", value: "03" },
+  { label: "Réunions tenues", value: "10+" },
   { label: "Taux de satisfaction", value: "97\u00A0%" },
 ];

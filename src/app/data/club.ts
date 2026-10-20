@@ -10,21 +10,21 @@ export const clubHeroStats = [
 ];
 
 export const timeline = [
-  { year: "2021", title: "Fondation", desc: "12 membres fondateurs créent Horizons Capital avec une conviction commune : l'investissement collectif peut transformer le rapport à l'argent." },
-  { year: "2022", title: "Premiers succès", desc: "Premier exercice complet avec une performance de +18,4\u00A0%, validant la robustesse de l'approche collective face à l'indice de référence." },
-  { year: "2023", title: "Cap des 100 membres", desc: "La communauté franchit les 100 membres. Lancement officiel de Phronesis Capital, notre division de recherche et d'analyse." },
-  { year: "2024", title: "Lancement FlagShip", desc: `Le portefeuille FlagShip est lancé avec ${KEY_FIGURES.aum} d'actifs sous gestion. Performance cumulée depuis l'origine\u00A0: ${KEY_FIGURES.performance}.` },
-  { year: "2025", title: "Vers un fonds agréé", desc: `${KEY_FIGURES.members} membres actifs. L'évolution vers un fonds d'investissement agréé est planifiée à horizon 2027–2028.` },
+  { year: "2022", title: "Fondation", desc: "05 membres fondateurs créent Horizons Capital avec une conviction commune : l'investissement collectif peut transformer le rapport à l'argent." },
+  { year: "2024", title: "Premiers succès", desc: "Premier exercice complet avec une performance de +18,4\u00A0%, validant la robustesse de l'approche collective face à l'indice de référence." },
+  { year: "2025", title: "Cap des 20 membres", desc: "La communauté franchit les 20 membres. Lancement officiel de Phronesis Capital, notre division de recherche et d'analyse." },
+  { year: "2026", title: "Lancement FlagShip", desc: `Le portefeuille FlagShip est lancé avec ${KEY_FIGURES.aum} d'actifs sous gestion. Performance cumulée depuis l'origine\u00A0: ${KEY_FIGURES.performance}.` },
+  { year: "2027", title: "Vers une SICAV agréé", desc: `${KEY_FIGURES.members} membres actifs. L'évolution vers une Société d’Investissement à Capital Variable agréé est planifiée à horizon 2027–2028.` },
 ];
 
 export const ambitions = [
-  { n: "01", title: "Court terme (2025–2026)", desc: "Atteindre 500 membres. Structurer les processus internes. Renforcer les performances du portefeuille FlagShip." },
-  { n: "02", title: "Moyen terme (2027–2028)", desc: "Obtenir l'agrément réglementaire. Diversifier les véhicules d'investissement. Ouvrir progressivement aux actifs non cotés." },
-  { n: "03", title: "Long terme (2029+)", desc: "Devenir un fonds de référence avec plus de 50\u00A0M€ d'actifs. Élargir la communauté à des dizaines de milliers de membres." },
+  { n: "01", title: "Court terme (2025–2026)", desc: "Atteindre 50 membres 10 partners stratégiques. Structurer les processus internes. Renforcer les performances du portefeuille FlagShip." },
+  { n: "02", title: "Moyen terme (2027–2029)", desc: "Obtenir l'agrément réglementaire. Diversifier les véhicules d'investissement. Ouvrir progressivement aux actifs non cotés." },
+  { n: "03", title: "Long terme (2030+)", desc: "Devenir une SICAV de référence avec plus de 50\u00A0M€ d'actifs. Élargir la communauté à des dizaines de milliers de membres." },
 ];
 
 export const allocation = [
-  { label: "Actions européennes", pct: 35, color: "#C8A84B" },
+  { label: "Actions africaines BRVM", pct: 35, color: "#C8A84B" },
   { label: "Actions américaines", pct: 28, color: "#2E6DA4" },
   { label: "Marchés émergents", pct: 22, color: "#27AE60" },
   { label: "Obligations & Revenu fixe", pct: 10, color: "#8E44AD" },
@@ -52,16 +52,16 @@ export const values: Value[] = [
   { icon: Shield, title: "Transparence", desc: "Chaque décision, chaque investissement, chaque résultat est partagé avec l'ensemble des membres en temps réel. Aucune zone d'ombre." },
   { icon: Users, title: "Intelligence collective", desc: "Nous croyons que la sagesse du groupe surpasse l'expertise individuelle. Toute décision d'allocation est soumise au vote des membres." },
   { icon: BarChart2, title: "Rigueur analytique", desc: "Nos décisions reposent sur une analyse fondamentale approfondie, jamais sur des intuitions ou des mouvements de court terme." },
-  { icon: BookOpen, title: "Pédagogie", desc: "Former nos membres est une mission centrale. L'investissement ne doit plus être perçu comme réservé à une élite financière." },
+  { icon: BookOpen, title: "Co-investissement", desc: "Former nos membres est une mission centrale. L'investissement ne doit plus être perçu comme réservé à une élite financière." },
   { icon: Globe, title: "Éthique & ESG", desc: "Nous intégrons des critères environnementaux, sociaux et de gouvernance dans notre processus d'investissement à tous les niveaux." },
   { icon: TrendingUp, title: "Performance durable", desc: "Notre objectif n'est pas le gain rapide mais la création de valeur sur le long terme, dans l'intérêt de chaque membre du club." },
 ];
 
 export const team = [
-  { name: "Jean-Marc Essomba", role: "Président du Club", bio: "Passionné de finance depuis 15 ans, Jean-Marc a fondé Horizons Capital avec la conviction que l'investissement collectif est le levier le plus puissant pour construire un patrimoine.", img: "team-1" },
-  { name: "Aminata Traoré", role: "Vice-Présidente & Responsable Recherche", bio: "Analyste financière certifiée CFA, Aminata dirige l'ensemble de la production analytique de Phronesis Capital avec rigueur et pédagogie.", img: "team-2" },
-  { name: "Thomas Nguyen", role: "Trésorier & Analyste Portefeuille", bio: "Dix ans d'expérience en salle de marché. Thomas pilote la stratégie FlagShip et assure la conformité réglementaire des opérations du club.", img: "team-3" },
-  { name: "Fatoumata Koné", role: "Responsable Relations Membres", bio: "Fatoumata assure l'accueil des nouveaux membres, coordonne les réunions mensuelles et anime la communauté avec enthousiasme.", img: "team-4" },
-  { name: "Bastien Moreau", role: "Analyste Senior, Phronesis Capital", bio: "Spécialiste des marchés émergents et de l'ESG, Bastien produit les rapports sectoriels qui guident les décisions d'investissement du club.", img: "team-5" },
-  { name: "Clarisse Abena", role: "Chargée de Communication & Formation", bio: "Clarisse conçoit les supports pédagogiques, organise les webinaires mensuels et veille à la diffusion du savoir financier au sein du club.", img: "team-6" },
+  { name: "Narcisse DAHINKPON", role: "Président du Club", bio: "Passionné de finance depuis 15 ans, narcisse a fondé Phronesis Capital avec la conviction que l'investissement collectif est le levier le plus puissant pour construire un patrimoine.", img: "team-1" },
+  { name: "Carine YAMONTCHE", role: "Vice-Présidente & Responsable Recherche", bio: "Carine dirige l'ensemble de la production analytique de Phronesis Capital avec rigueur et pédagogie.", img: "team-2" },
+  { name: "Moufidath YNOUSSA", role: "Trésorier", bio: "Moufidath pilote la stratégie FlagShip et assure la conformité réglementaire des opérations du club.", img: "team-4" },
+  { name: "Ambroisine DAHINKPON", role: "Responsable relation & Communication", bio: "Ambroisine assure l'accueil des nouveaux membres, conçoit les supports pédagogiques, organise les webinaires mensuels, veille à la diffusion du savoir financier au sein du club et anime la communauté avec enthousiasme.", img: "team-3" },
+  { name: "Flaminus GBEDOLO", role: "Responsable de la digitalisation", bio: " Il pilote la stratégie globale de transformation numérique de l'organisation. Il fait le pont entre les besoins des différents métiers (ressources humaines, marketing, analyste portefeuille) et les outils informatiques.", img: "team-5" },
+  { name: "Edgard AGOSSA", role: "Tech Lead", bio: " Il est le référent technique des équipes de développement ou d'un projet logiciel spécifique. Il garantit la qualité, la robustesse et la maintenabilité du code.", img: "team-6" },
 ];
