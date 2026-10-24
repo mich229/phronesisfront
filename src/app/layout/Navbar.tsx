@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router";
 import { ArrowRight, ChevronDown, ExternalLink, Menu, TrendingUp, X } from "lucide-react";
 import { NAV, type NavItem } from "../data/navigation";
+import Logo from "../components/Logo";
 import { SITE } from "../data/site";
 
 const linkCls = (active: boolean) =>
@@ -43,13 +44,8 @@ export default function Navbar() {
         }`}
       >
         <div className="mx-auto flex h-[68px] max-w-7xl items-center justify-between px-6">
-          <Link to="/" className="flex items-center gap-2.5">
-            <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded bg-gold">
-              <TrendingUp size={15} className="text-navy" />
-            </div>
-            <span className="font-display text-lg font-semibold leading-none text-white">
-              {SITE.name}
-            </span>
+          <Link to="/" aria-label={`${SITE.name} — accueil`}>
+            <Logo size={38} />
           </Link>
 
           <nav className="hidden items-center gap-7 lg:flex" aria-label="Navigation principale">

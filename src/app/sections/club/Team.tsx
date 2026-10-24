@@ -10,7 +10,7 @@ export default function Team() {
         <SectionHeading
           className="mb-16"
           eyebrow="L'équipe dirigeante"
-          title={`Le Bureau d'${SITE.name}.`}
+          title={`Le Bureau de ${SITE.name}.`}
           subtitle="Des professionnels passionnés, élus démocratiquement par les membres, engagés au service de la communauté et de sa performance."
         />
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">

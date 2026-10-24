@@ -18,12 +18,12 @@ export const PAGES: Record<PageKey, PageSeo> = {
   club: {
     path: "/le-club",
     title: `Le Club : histoire, vision et équipe | ${SITE.name}`,
-    description: `Histoire, vision, stratégie, valeurs et équipe d'${SITE.name}, club d'investissement fondé sur la transparence et l'intelligence collective.`,
+    description: `Histoire, vision, stratégie, valeurs et équipe de ${SITE.name}, club d'investissement fondé sur la transparence et l'intelligence collective.`,
   },
   services: {
     path: "/services",
-    title: `Services : Phronesis Capital et FlagShip | ${SITE.name}`,
-    description: "Phronesis Capital (recherche et analyse) et FlagShip (portefeuille collectif) : découvrez les services du club pour investir mieux, ensemble.",
+    title: `Services : Phronesis Research et FlagShip | ${SITE.name}`,
+    description: "Phronesis Research (recherche et analyse) et FlagShip (portefeuille collectif) : découvrez les services du club pour investir mieux, ensemble.",
   },
   blog: {
     path: "/blog",
@@ -33,7 +33,7 @@ export const PAGES: Record<PageKey, PageSeo> = {
   faq: {
     path: "/faq",
     title: `FAQ : vos questions sur le club | ${SITE.name}`,
-    description: `Réponses aux questions fréquentes sur le club, l'adhésion, les décisions d'investissement et l'application membre d'${SITE.name}.`,
+    description: `Réponses aux questions fréquentes sur le club, l'adhésion, les décisions d'investissement et l'application membre de ${SITE.name}.`,
   },
   adhesion: {
     path: "/adhesion",

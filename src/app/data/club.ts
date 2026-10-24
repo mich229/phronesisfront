@@ -10,9 +10,9 @@ export const clubHeroStats = [
 ];
 
 export const timeline = [
-  { year: "2022", title: "Fondation", desc: "05 membres fondateurs créent Horizons Capital avec une conviction commune : l'investissement collectif peut transformer le rapport à l'argent." },
+  { year: "2022", title: "Fondation", desc: "05 membres fondateurs créent Phronesis Capital avec une conviction commune : l'investissement collectif peut transformer le rapport à l'argent." },
   { year: "2024", title: "Premiers succès", desc: "Premier exercice complet avec une performance de +18,4\u00A0%, validant la robustesse de l'approche collective face à l'indice de référence." },
-  { year: "2025", title: "Cap des 20 membres", desc: "La communauté franchit les 20 membres. Lancement officiel de Phronesis Capital, notre division de recherche et d'analyse." },
+  { year: "2025", title: "Cap des 20 membres", desc: "La communauté franchit les 20 membres. Lancement officiel de Phronesis Research, notre division de recherche et d'analyse." },
   { year: "2026", title: "Lancement FlagShip", desc: `Le portefeuille FlagShip est lancé avec ${KEY_FIGURES.aum} d'actifs sous gestion. Performance cumulée depuis l'origine\u00A0: ${KEY_FIGURES.performance}.` },
   { year: "2027", title: "Vers une SICAV agréé", desc: `${KEY_FIGURES.members} membres actifs. L'évolution vers une Société d’Investissement à Capital Variable agréé est planifiée à horizon 2027–2028.` },
 ];
@@ -58,8 +58,8 @@ export const values: Value[] = [
 ];
 
 export const team = [
-  { name: "Narcisse DAHINKPON", role: "Président du Club", bio: "Passionné de finance depuis 15 ans, narcisse a fondé Phronesis Capital avec la conviction que l'investissement collectif est le levier le plus puissant pour construire un patrimoine.", img: "team-1" },
-  { name: "Carine YAMONTCHE", role: "Vice-Présidente & Responsable Recherche", bio: "Carine dirige l'ensemble de la production analytique de Phronesis Capital avec rigueur et pédagogie.", img: "team-2" },
+  { name: "Narcisse DAHINKPON", role: "Président du Club", bio: "Passionné de finance depuis 15 ans, narcisse a fondé Phronesis Research avec la conviction que l'investissement collectif est le levier le plus puissant pour construire un patrimoine.", img: "team-1" },
+  { name: "Carine YAMONTCHE", role: "Vice-Présidente & Responsable Recherche", bio: "Carine dirige l'ensemble de la production analytique de Phronesis Research avec rigueur et pédagogie.", img: "team-2" },
   { name: "Moufidath YNOUSSA", role: "Trésorier", bio: "Moufidath pilote la stratégie FlagShip et assure la conformité réglementaire des opérations du club.", img: "team-4" },
   { name: "Ambroisine DAHINKPON", role: "Responsable relation & Communication", bio: "Ambroisine assure l'accueil des nouveaux membres, conçoit les supports pédagogiques, organise les webinaires mensuels, veille à la diffusion du savoir financier au sein du club et anime la communauté avec enthousiasme.", img: "team-3" },
   { name: "Flaminus GBEDOLO", role: "Responsable de la digitalisation", bio: " Il pilote la stratégie globale de transformation numérique de l'organisation. Il fait le pont entre les besoins des différents métiers (ressources humaines, marketing, analyste portefeuille) et les outils informatiques.", img: "team-5" },

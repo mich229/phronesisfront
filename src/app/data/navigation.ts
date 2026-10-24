@@ -10,7 +10,7 @@ export const NAV: NavItem[] = [
     label: "Nos Services",
     children: [
       { label: "Tous les services", to: "/services", icon: BarChart2 },
-      { label: "Phronesis Capital", to: "/services#phronesis", icon: Database },
+      { label: "Phronesis Research", to: "/services#phronesis", icon: Database },
       { label: "FlagShip", to: "/services#flagship", icon: PieChart },
     ],
   },

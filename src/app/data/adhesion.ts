@@ -10,7 +10,7 @@ export const applySteps = [
 export const freeModel = [
   { icon: CheckCircle, title: "Aucun frais d'entrée", desc: "L'adhésion au club est totalement gratuite. Votre candidature est examinée sans frais et sans aucun engagement financier préalable." },
   { icon: TrendingUp, title: "Participation flexible", desc: "Investissez collectivement selon vos capacités, dès 250\u00A0€. Vous ajustez votre mise au fil du temps, en fonction de votre situation." },
-  { icon: ExternalLink, title: "Accès immédiat à l'application", desc: "Dès validation de votre adhésion, accédez à notre application de suivi de portefeuille, aux analyses de Phronesis Capital et au forum." },
+  { icon: ExternalLink, title: "Accès immédiat à l'application", desc: "Dès validation de votre adhésion, accédez à notre application de suivi de portefeuille, aux analyses de Phronesis Research et au forum." },
 ];
 
 export const situations = ["Salarié(e)", "Entrepreneur / Indépendant", "Étudiant(e)", "Cadre supérieur", "Retraité(e)", "Autre"];

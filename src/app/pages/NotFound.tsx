@@ -1,4 +1,4 @@
-﻿import { Link } from "react-router";
+import { Link } from "react-router";
 import Button from "../components/Button";
 import Seo from "../components/Seo";
 import { PAGES } from "../data/seo";
@@ -6,7 +6,7 @@ import { SITE } from "../data/site";
 
 const links = [
   { label: "Le Club", to: "/le-club", desc: "Notre histoire, notre vision et notre équipe." },
-  { label: "Nos services", to: "/services", desc: "Phronesis Capital, FlagShip et nos services complémentaires." },
+  { label: "Nos services", to: "/services", desc: "Phronesis Research, FlagShip et nos services complémentaires." },
   { label: "Blog", to: "/blog", desc: "Analyses, formations et actualités du club." },
   { label: "FAQ", to: "/faq", desc: "Les réponses aux questions les plus fréquentes." },
 ];

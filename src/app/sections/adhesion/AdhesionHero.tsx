@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ArrowRight, TrendingUp } from "lucide-react";
 import Breadcrumb from "../../components/Breadcrumb";
+import Logo from "../../components/Logo";
 import { SITE } from "../../data/site";
 
 function MembershipCard() {
@@ -14,9 +15,7 @@ function MembershipCard() {
 
           <div className="relative flex h-full flex-col justify-between p-8">
             <div className="flex items-start justify-between">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-gold">
-                <TrendingUp size={18} className="text-navy" />
-              </div>
+              <Logo variant="mark" size={46} />
               <div className="flex items-center">
                 <div className="h-6 w-6 rounded-full bg-gold/55" />
                 <div className="-ml-3 h-6 w-6 rounded-full bg-gold/30" />

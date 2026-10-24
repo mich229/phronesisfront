@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { ExternalLink, Linkedin, Mail, MapPin, Phone, TrendingUp, Twitter } from "lucide-react";
+import Logo from "../components/Logo";
 import { SITE } from "../data/site";
 
 const colNavigation = [
@@ -11,7 +12,7 @@ const colNavigation = [
 ];
 
 const colProduits = [
-  { label: "Phronesis Capital", to: "/services#phronesis" },
+  { label: "Phronesis Research", to: "/services#phronesis" },
   { label: "FlagShip", to: "/services#flagship" },
   { label: "Blog", to: "/blog" },
   { label: "FAQ", to: "/faq" },
@@ -24,7 +25,7 @@ const legal = [
 ];
 
 const RISK =
-  "L'investissement en bourse et dans des sociétés non cotées comporte des risques de perte en capital, partiels ou totaux. Les performances passées ne préjugent pas des performances futures. La valeur des investissements peut fluctuer à la hausse comme à la baisse en fonction des conditions de marché, de la conjoncture économique, des taux d'intérêt et d'autres facteurs imprévisibles. Les investissements dans des sociétés non cotées sont par nature illiquides et comportent des risques supplémentaires liés à l'absence de marché secondaire organisé, à la difficulté d'évaluation et à la dépendance aux décisions de gestion de l'émetteur. Avant tout investissement, nous vous recommandons de consulter un conseiller financier indépendant et de vous assurer que l'investissement est adapté à votre situation personnelle, vos objectifs et votre tolérance au risque. Horizons Capital ne fournit pas de conseil en investissement au sens réglementaire du terme.";
+  "L'investissement en bourse et dans des sociétés non cotées comporte des risques de perte en capital, partiels ou totaux. Les performances passées ne préjugent pas des performances futures. La valeur des investissements peut fluctuer à la hausse comme à la baisse en fonction des conditions de marché, de la conjoncture économique, des taux d'intérêt et d'autres facteurs imprévisibles. Les investissements dans des sociétés non cotées sont par nature illiquides et comportent des risques supplémentaires liés à l'absence de marché secondaire organisé, à la difficulté d'évaluation et à la dépendance aux décisions de gestion de l'émetteur. Avant tout investissement, nous vous recommandons de consulter un conseiller financier indépendant et de vous assurer que l'investissement est adapté à votre situation personnelle, vos objectifs et votre tolérance au risque. Phronesis Capital ne fournit pas de conseil en investissement au sens réglementaire du terme.";
 
 function Column({ title, links }: { title: string; links: { label: string; to: string }[] }) {
   return (
@@ -48,9 +49,9 @@ export default function Footer() {
         <div className="mb-12 grid gap-12 lg:grid-cols-4">
           <div>
             <div className="mb-4 flex items-center gap-2.5">
-              <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded bg-gold">
-                <TrendingUp size={13} className="text-navy" />
-              </div>
+              <Link to="/" aria-label={`${SITE.name} — accueil`} className="mb-5 inline-block">
+                <Logo size={34} />
+              </Link>
               <span className="font-display font-semibold text-white">{SITE.name}</span>
             </div>
             <p className="text-sm leading-relaxed">
