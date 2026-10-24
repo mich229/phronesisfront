@@ -15,7 +15,7 @@ export const SITE = {
 
 export const KEY_FIGURES = {
   members: "25",
-  aum: "2.8\u00A0M XOF",
+  aum: "2,8\u00A0M XOF",
   performance: "+63,2\u00A0%",
   performanceShort: "+25\u00A0%",
   benchmark: "+14,7\u00A0%",
