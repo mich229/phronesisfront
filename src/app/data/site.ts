@@ -1,5 +1,5 @@
 export const SITE = {
-  name: "Phronesis Research",
+  name: "Phronesis Capital",
   email: "contact@phronesiscapital-partners.com",
   supportEmail: "support@phronesiscapital-partners.com",
   phone: "+229 01 66 03 98 99",

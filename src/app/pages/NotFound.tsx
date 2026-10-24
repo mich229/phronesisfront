@@ -6,7 +6,7 @@ import { SITE } from "../data/site";
 
 const links = [
   { label: "Le Club", to: "/le-club", desc: "Notre histoire, notre vision et notre équipe." },
-  { label: "Nos services", to: "/services", desc: "Phronesis Research, FlagShip et nos services complémentaires." },
+  { label: "Nos services", to: "/services", desc: "Hikma, FlagShip et nos services complémentaires." },
   { label: "Blog", to: "/blog", desc: "Analyses, formations et actualités du club." },
   { label: "FAQ", to: "/faq", desc: "Les réponses aux questions les plus fréquentes." },
 ];

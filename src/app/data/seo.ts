@@ -22,8 +22,8 @@ export const PAGES: Record<PageKey, PageSeo> = {
   },
   services: {
     path: "/services",
-    title: `Services : Phronesis Research et FlagShip | ${SITE.name}`,
-    description: "Phronesis Research (recherche et analyse) et FlagShip (portefeuille collectif) : découvrez les services du club pour investir mieux, ensemble.",
+    title: `Services : Recherche & Analyse et FlagShip | ${SITE.name}`,
+    description: "Le pôle Recherche & Analyse et FlagShip (portefeuille collectif) : découvrez les services du club pour investir mieux, ensemble.",
   },
   blog: {
     path: "/blog",

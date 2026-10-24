@@ -12,7 +12,7 @@ const colNavigation = [
 ];
 
 const colProduits = [
-  { label: "Phronesis Research", to: "/services#phronesis" },
+  { label: "Recherche & Analyse", to: "/services#phronesis" },
   { label: "FlagShip", to: "/services#flagship" },
   { label: "Blog", to: "/blog" },
   { label: "FAQ", to: "/faq" },

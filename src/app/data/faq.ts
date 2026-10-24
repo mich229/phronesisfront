@@ -28,9 +28,9 @@ export const faqCategories: FaqCategory[] = [
     id: "investissement",
     label: "Investissement",
     items: [
-      { q: "Comment sont prises les décisions d'investissement\u00A0?", a: "Collectivement, lors de réunions mensuelles. Chaque membre dispose d'un droit de vote proportionnel à sa participation au capital collectif. Les propositions sont préparées par notre équipe d'analyse (Phronesis Research) et présentées en réunion pour délibération." },
+      { q: "Comment sont prises les décisions d'investissement\u00A0?", a: "Collectivement, lors de réunions mensuelles. Chaque membre dispose d'un droit de vote proportionnel à sa participation au capital collectif. Les propositions sont préparées par notre équipe d'analyse (pôle Recherche & Analyse) et présentées en réunion pour délibération." },
       { q: "Quels types d'actifs le club investit-il\u00A0?", a: "Le club investit principalement en actions cotées (grandes et moyennes capitalisations mondiales), ETF sectoriels et obligations. Notre portefeuille FlagShip maintient une diversification géographique et sectorielle stricte." },
-      { q: "Comment sont gérés les risques\u00A0?", a: "La diversification est au cœur de notre stratégie\u00A0: pas plus de 10\u00A0% du portefeuille sur un seul titre, exposition équilibrée entre secteurs et zones géographiques. Notre équipe Phronesis Research assure une veille continue des risques macroéconomiques." },
+      { q: "Comment sont gérés les risques\u00A0?", a: "La diversification est au cœur de notre stratégie\u00A0: pas plus de 10\u00A0% du portefeuille sur un seul titre, exposition équilibrée entre secteurs et zones géographiques. Notre pôle Recherche & Analyse assure une veille continue des risques macroéconomiques." },
       { q: "Quelle est la performance historique du club\u00A0?", a: `Depuis le lancement en ${KEY_FIGURES.founded}, le portefeuille collectif affiche une performance cumulée de ${KEY_FIGURES.performance}, contre ${KEY_FIGURES.benchmark} pour l'indice de référence sur la même période. Ces chiffres sont communiqués à chaque rapport trimestriel. Les performances passées ne préjugent pas des performances futures.` },
     ],
   },
